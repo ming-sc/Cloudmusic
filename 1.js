@@ -37,8 +37,8 @@ class MusicExtension {
     }
     getInfo() {
       return {
-        id: 'sipc.ink.CloudMusic',
-        name: 'CloudMusic',
+        id: 'CloudMusic',
+        name: 'CloudMusic1',
         color1: "#4d4d4f",
         blocks: [
           {
