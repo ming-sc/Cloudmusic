@@ -232,7 +232,7 @@ class MusicExtension {
     //音乐部分
     SearchMusic(args) {
       return new Promise((resolve, reject) => {
-        const url = `https://163.sipc-api.top/search?keywords=${args.name}`;
+        const url = `http://music.163.com/api/search/get/web?csrf_token=hlpretag=&hlposttag=&s=${args.name}&type=1&offset=0&total=true&limit=30`;
         fetch(url)
           .then(response => response.json())
           .then(data => {
